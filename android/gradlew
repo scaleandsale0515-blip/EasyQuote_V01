@@ -75,7 +75,7 @@ if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
     esac
 fi
 
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx2048m"
 
 # Collect all arguments for the java command, stacking in reverse order:
 set -- \
